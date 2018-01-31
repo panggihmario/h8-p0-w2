@@ -1,5 +1,5 @@
-var tanggal = 1;
-var bulan = 1;
+var tanggal = 17;
+var bulan = 8;
 var tahun = 1945;
 
 
