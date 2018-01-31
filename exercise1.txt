@@ -1,0 +1,27 @@
+1.store "m" with 600
+  store "a" with 2
+  store "F" with anyvalue
+  caluclate "m" times "a"
+  set "F" value with calculation result
+  display "F"
+
+2.store "tahun" with anyvalue
+  if "tahun" modulus 4 and "tahun" tidak habis dibagi 100
+    do "kabisat"
+  elseif  "tahun" modulus 4 and "tahun" modulus 100 and "tahun" modulus 400
+    do "kabisat juga"
+  else
+    do "bukan kabisat"
+
+3.store "pakaian" with 1
+  while "pakaian" <=20
+    add "pakaian" by 1
+  display "jumlah pakaian"
+
+4.store "siswa" with 1
+  while "siswa" <=40
+    add "siswa" by 1
+    if "siswa" kukupanjang
+      display "dimarahi guru"
+    else
+      display "dipuji guru"
